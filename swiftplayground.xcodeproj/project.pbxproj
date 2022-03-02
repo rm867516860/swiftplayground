@@ -19,6 +19,19 @@
 		90C45DAC27CF1AC400BEB474 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90C45DAE27CF1AC700BEB474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90C45DB127CF1AC700BEB474 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		90C45DB827CF1AED00BEB474 /* 01GCD_Dispatch_Serial.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 01GCD_Dispatch_Serial.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		90C45DB927CF1B1200BEB474 /* 03GCD_QOS_unspecified.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 03GCD_QOS_unspecified.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		90C45DBA27CF1B1200BEB474 /* 02GCD_Dispatch_Current.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 02GCD_Dispatch_Current.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		90C45DBB27CF1B1200BEB474 /* 07GCD_qos_current3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 07GCD_qos_current3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		90C45DBC27CF1B1200BEB474 /* 04GCD_qos_current.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 04GCD_qos_current.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		90C45DBD27CF1B1200BEB474 /* 08GCD_delay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 08GCD_delay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		90C45DBE27CF1B1300BEB474 /* 05GCD_qos_queue1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 05GCD_qos_queue1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		90C45DBF27CF1B1300BEB474 /* 09GCD_QOS_summary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 09GCD_QOS_summary.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		90C45DC027CF1B1300BEB474 /* 06GCD_qos_queue2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 06GCD_qos_queue2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		90C45DC127CF1B1300BEB474 /* 10switch_closer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 10switch_closer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		90E8E16727CF1F0000F37152 /* LiveRoom.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LiveRoom.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		90E8E16927CF1F5200F37152 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		90E8E16B27CF211200F37152 /* test04_count.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test04_count.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +48,11 @@
 		90C45D9E27CF1AC400BEB474 = {
 			isa = PBXGroup;
 			children = (
+				90E8E16A27CF20ED00F37152 /* Closure */,
+				90E8E16827CF1F4500F37152 /* Inherit */,
+				90E8E16627CF1EE600F37152 /* Expand */,
+				90E8E16527CF1D7600F37152 /* ControlFlow */,
+				90C45DC527CF1CCA00BEB474 /* GCD */,
 				90C45DA927CF1AC400BEB474 /* swiftplayground */,
 				90C45DA827CF1AC400BEB474 /* Products */,
 			);
@@ -51,8 +69,7 @@
 		90C45DA927CF1AC400BEB474 /* swiftplayground */ = {
 			isa = PBXGroup;
 			children = (
-				90C45DAA27CF1AC400BEB474 /* swiftplaygroundApp.swift */,
-				90C45DAC27CF1AC400BEB474 /* ContentView.swift */,
+				90C45DC327CF1CA000BEB474 /* model */,
 				90C45DAE27CF1AC700BEB474 /* Assets.xcassets */,
 				90C45DB027CF1AC700BEB474 /* Preview Content */,
 			);
@@ -65,6 +82,63 @@
 				90C45DB127CF1AC700BEB474 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		90C45DC327CF1CA000BEB474 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				90C45DAC27CF1AC400BEB474 /* ContentView.swift */,
+				90C45DAA27CF1AC400BEB474 /* swiftplaygroundApp.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		90C45DC527CF1CCA00BEB474 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				90C45DB827CF1AED00BEB474 /* 01GCD_Dispatch_Serial.playground */,
+				90C45DBA27CF1B1200BEB474 /* 02GCD_Dispatch_Current.playground */,
+				90C45DB927CF1B1200BEB474 /* 03GCD_QOS_unspecified.playground */,
+				90C45DBC27CF1B1200BEB474 /* 04GCD_qos_current.playground */,
+				90C45DBE27CF1B1300BEB474 /* 05GCD_qos_queue1.playground */,
+				90C45DC027CF1B1300BEB474 /* 06GCD_qos_queue2.playground */,
+				90C45DBB27CF1B1200BEB474 /* 07GCD_qos_current3.playground */,
+				90C45DBD27CF1B1200BEB474 /* 08GCD_delay.playground */,
+				90C45DBF27CF1B1300BEB474 /* 09GCD_QOS_summary.playground */,
+			);
+			name = GCD;
+			sourceTree = "<group>";
+		};
+		90E8E16527CF1D7600F37152 /* ControlFlow */ = {
+			isa = PBXGroup;
+			children = (
+				90C45DC127CF1B1300BEB474 /* 10switch_closer.playground */,
+			);
+			name = ControlFlow;
+			sourceTree = "<group>";
+		};
+		90E8E16627CF1EE600F37152 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				90E8E16727CF1F0000F37152 /* LiveRoom.playground */,
+			);
+			name = Expand;
+			sourceTree = "<group>";
+		};
+		90E8E16827CF1F4500F37152 /* Inherit */ = {
+			isa = PBXGroup;
+			children = (
+				90E8E16927CF1F5200F37152 /* MyPlayground.playground */,
+			);
+			name = Inherit;
+			sourceTree = "<group>";
+		};
+		90E8E16A27CF20ED00F37152 /* Closure */ = {
+			isa = PBXGroup;
+			children = (
+				90E8E16B27CF211200F37152 /* test04_count.playground */,
+			);
+			name = Closure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
