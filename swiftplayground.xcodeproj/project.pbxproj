@@ -31,7 +31,7 @@
 		90C45DC127CF1B1300BEB474 /* 10switch_closer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 10switch_closer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		90E8E16727CF1F0000F37152 /* LiveRoom.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LiveRoom.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		90E8E16927CF1F5200F37152 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
-		90E8E16B27CF211200F37152 /* test04_count.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test04_count.playground; sourceTree = "<group>"; };
+		90E8E16B27CF211200F37152 /* test04_count.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test04_count.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

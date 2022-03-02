@@ -18,6 +18,8 @@ func countAdder(f:()->()) -> () -> () {
 func greet () {
     print("howdy")
 }
+
+
 let countedGreet = countAdder(f: greet)
 countedGreet()
 countedGreet()
