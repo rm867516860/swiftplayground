@@ -22,5 +22,7 @@ func greet () {
 
 let countedGreet = countAdder(f: greet)
 countedGreet()
+
+
 countedGreet()
 countedGreet()
