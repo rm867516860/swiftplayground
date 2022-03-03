@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		900618A227D0AA96005AEEC0 /* 01iflet.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 01iflet.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		90C45DA727CF1AC400BEB474 /* swiftplayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftplayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C45DAA27CF1AC400BEB474 /* swiftplaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftplaygroundApp.swift; sourceTree = "<group>"; };
 		90C45DAC27CF1AC400BEB474 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,8 +30,10 @@
 		90C45DBF27CF1B1300BEB474 /* 09GCD_QOS_summary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 09GCD_QOS_summary.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		90C45DC027CF1B1300BEB474 /* 06GCD_qos_queue2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 06GCD_qos_queue2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		90C45DC127CF1B1300BEB474 /* 10switch_closer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 10switch_closer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		90CDE52827D0E11F00FAA1C2 /* JsonData.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = JsonData.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		90CDE52A27D0E6B300FAA1C2 /* 02JsonData.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 02JsonData.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		90E8E16727CF1F0000F37152 /* LiveRoom.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LiveRoom.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		90E8E16927CF1F5200F37152 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		90E8E16927CF1F5200F37152 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		90E8E16B27CF211200F37152 /* test04_count.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test04_count.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -45,9 +48,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		900618A327D0AAA9005AEEC0 /* ifLet */ = {
+			isa = PBXGroup;
+			children = (
+				900618A227D0AA96005AEEC0 /* 01iflet.playground */,
+			);
+			name = ifLet;
+			sourceTree = "<group>";
+		};
 		90C45D9E27CF1AC400BEB474 = {
 			isa = PBXGroup;
 			children = (
+				90CDE52927D0E68800FAA1C2 /* JsonD */,
+				900618A327D0AAA9005AEEC0 /* ifLet */,
 				90E8E16A27CF20ED00F37152 /* Closure */,
 				90E8E16827CF1F4500F37152 /* Inherit */,
 				90E8E16627CF1EE600F37152 /* Expand */,
@@ -107,6 +120,15 @@
 				90C45DBF27CF1B1300BEB474 /* 09GCD_QOS_summary.playground */,
 			);
 			name = GCD;
+			sourceTree = "<group>";
+		};
+		90CDE52927D0E68800FAA1C2 /* JsonD */ = {
+			isa = PBXGroup;
+			children = (
+				90CDE52827D0E11F00FAA1C2 /* JsonData.playground */,
+				90CDE52A27D0E6B300FAA1C2 /* 02JsonData.playground */,
+			);
+			name = JsonD;
 			sourceTree = "<group>";
 		};
 		90E8E16527CF1D7600F37152 /* ControlFlow */ = {
