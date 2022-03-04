@@ -15,6 +15,7 @@
 
 /* Begin PBXFileReference section */
 		900618A227D0AA96005AEEC0 /* 01iflet.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 01iflet.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9088567127D214D20025F553 /* 01guard.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 01guard.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		90C45DA727CF1AC400BEB474 /* swiftplayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftplayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C45DAA27CF1AC400BEB474 /* swiftplaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftplaygroundApp.swift; sourceTree = "<group>"; };
 		90C45DAC27CF1AC400BEB474 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,9 +57,18 @@
 			name = ifLet;
 			sourceTree = "<group>";
 		};
+		9088567227D214D90025F553 /* Guard */ = {
+			isa = PBXGroup;
+			children = (
+				9088567127D214D20025F553 /* 01guard.playground */,
+			);
+			name = Guard;
+			sourceTree = "<group>";
+		};
 		90C45D9E27CF1AC400BEB474 = {
 			isa = PBXGroup;
 			children = (
+				9088567227D214D90025F553 /* Guard */,
 				90CDE52927D0E68800FAA1C2 /* JsonD */,
 				900618A327D0AAA9005AEEC0 /* ifLet */,
 				90E8E16A27CF20ED00F37152 /* Closure */,

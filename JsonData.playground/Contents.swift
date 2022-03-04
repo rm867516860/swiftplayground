@@ -6,7 +6,7 @@ var greeting = "Hello, playground"
 
 
 class Jsondata {
-    //json字符串
+    //json字符串：数组
     let user:[String: Any] = [
                 "uname": "张三",
                 "tel": ["mobile": "138", "home": "010"]
